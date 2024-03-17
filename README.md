@@ -127,7 +127,7 @@ terraform apply
 ```
 aws ssm start-session --target i-0e76f7270d6811857 --profile bia-tf
 ```
-- targer = instância que precisa acessar 
+- target = instância que precisa acessar 
 - profile = perfil que criou para ter acesso a instância
 
 ```
