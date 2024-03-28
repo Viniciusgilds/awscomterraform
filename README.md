@@ -6,10 +6,13 @@
 
 - Instalar o gerenciador de pacotes chocolatey
 - Entre no powershell no modo ADMINISTRADOR e execute o comando 
+```
 Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
+```
 - Depois execute o comando 
+```
 choco install terraform
-
+```
 - Linux 
 
 - Execute os comandos 
