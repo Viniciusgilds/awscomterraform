@@ -1,4 +1,4 @@
-# AWS com Terraform 
+# Lançando uma instancia na AWS com Terraform 
 
 # 1 Instalando Terraform 
 
